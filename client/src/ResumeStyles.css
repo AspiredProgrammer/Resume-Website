@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Enriqueta";
+    src: url(./assets/Enriqueta/Enriqueta-Regular.ttf)
+}
+
+* {
+    font-family: "Enriqueta";
+}
+
+.navbar {
+    background: #F4AFAB;
+}
+
+.navbar-nav a {
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.navbar-brand {
+    border-radius: 5px;
+    background-color: #F4CBC6;
+}
+.navbar-nav a:hover{
+    background-color: #F4CBC6;
+    font-weight: bold;
+}
+
+.navbar-toggler:hover {
+    background-color: #F4CBC6;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contactList {
+    max-width: 90%;
+    display: inline;
+    background-color: #BBF2DD;
+    padding: 5px;
+}
+
+.contact li {
+    display: inline;
+    margin: 11px;
+}
+
+.overview img {
+    display: flex;
+    width: 25%;
+    height: 20%;
+    border-radius: 130px;
+    border: 1px solid black;
+}
+.image2 img {
+    display: flex;
+    width: 25%;
+    height: 20%;
+    border-radius: 130px;
+    border: 1px solid black;
+}
+
+.otherContact {
+    list-style-type: square;
+}
+
+/* To ensure that the website is responsive to screen size */
+
+@media (width <= 1000px) {
+    .contact {
+      display: none !important;
+    }
+    .overview img {
+        display: none !important;
+    }
+}
+@media (width > 1000px) {
+    .otherContact{
+        display: none !important;
+    }
+    .image2 {
+        display: none !important;
+    }
+}

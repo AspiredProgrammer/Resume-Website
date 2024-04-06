@@ -1,0 +1,80 @@
+{
+    "contact": {
+        "title": "Contact Information",
+        "address": "Address",
+        "phone": "Phone Number",
+        "linkedin": "LinkedIn",
+        "mail": "Email",
+        "git": "https://github.com/AspiredProgrammer"
+    },
+    "techSkills": [
+        {
+            "title": "Programming Lanuguages",
+            "names": "C# (basic knowledge), Java, Python, Unix/Linux Shell scripting (basic knowledge)"
+        },
+        {
+            "title": "Web Technologies",
+            "names": "HTML, CSS, JavaScript"
+        },
+        {
+            "title": "Frameworks",
+            "names": "Django (In progress), Nodes.js (In progress), React.js, React Native (In progress)"
+        },
+        {
+            "title": "Database Technologies",
+            "names": "MongoDB (In progress), SQL (SQL Oracle Developer)"
+        },
+        {
+            "title": "Other Technical Skills",
+            "names": "Microsoft Office (i.e. Word, PowerPoint, Excel, Outlook)"
+        }
+    ],
+    "softSkills": [
+        {
+            "title": "Multilingual",
+            "examples": "Fluent in Russian and English with basic understanding of Spanish and French"
+        },
+        {
+            "title": "Soft skills",
+            "examples": "Self-motivated, detail-oriented, great work ethic, and excellent communication skills"
+        }
+    ],
+    "education": [
+        {
+            "title": "Computer Programming and Analysis / Advanced Diploma (Co-op)",
+            "date": "Jan. 2023 - Present",
+            "school": "Humber College - Etobicoke, ON",
+            "points": [
+                "Honours: Dean's Honour List for Semesters 1 & 2",
+                "Highlighted courses: Algorithms and Problem Solving (Java), Database Concepts and Design, Web Programming and Design, Operating Systems, Database Programming (SQL), Advanced Front-End Programming (React), Object-Oriented Programming (Java)",
+                "In progress: Systems Design (SDLC, Agile), Cross-platform App Development (React Native), Modern Web Technologies (Node.js, MongoDB), Data Structures and Algorithms (Java), Highlevel Programming Languages (Python, Django)",
+                "Expected Date of Graduation: April 2026"
+            ]
+        }
+       
+    ],
+    "workExp": {
+        "name": "Sales Associate",
+        "type": "Contract Position",
+        "date": "Sept 2023",
+        "company": "Gourmet Express (Humber College) - Etobicoke, ON",
+        "points": [
+            "Oversaw store operations in the absence of supervisors; maintaining cleanliness and replenishing necessary products",
+            "Addressed cliental concerns and ensured customer satisfaction with positive and efficient customer service",
+            "Provided any additional support to supervisors in and out of the store (i.e. unloaded imported goods, assisted with events run by the college)"
+        ]
+    },
+    "overview": {
+        "title": "Overview",
+        "summary": [
+            "I am a highly dedicated student taking Computer Programming and Analysis program at Humber College.",
+            "With my experiences within my program, I hope to specialize in web or software development.",
+            "After discovering computer science in high school, I've become committed to immersing myself in that field.",
+            "I enjoyed creating webpages and discovered at Humber that my career has to be in software or web development.",
+            "I'm intrigued by the creation of apps, websites, and software and wish to make many of my own.",
+            "I am at the beginning of my studies with some experience in the workforce but am strong in spirit; always persevering through challenges and continuously learning.",
+            "I have experience in customer service which has aided in building on present skills; solidifying communication and organization skills.",
+            "I believe I have strong time management and collaborative skills, efficiently working in a team while keeping up with project deadlines and easily working independently."
+        ]
+    }
+}
