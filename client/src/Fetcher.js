@@ -12,36 +12,36 @@ function Fetcher() {
     
     useEffect(() => {
           
-        fetch("http://localhost:8000/getContactInfo")
+        fetch("https://resume-website-client.vercel.app/getContactInfo")
             .then((response) => response.json() )
             .then((data) => setContactInfo(data))
             .catch((error) => console.log("Error fetching contact details", error));
             
 
-        fetch("http://localhost:8000/getOverview")
+        fetch("https://resume-website-client.vercel.app/getOverview")
             .then((response) => response.json())
             .then((data) => setOverview(data))
             .catch((error) => console.log("Error fetching overview details", error));
         
-        fetch("http://localhost:8000/getTechSkills")
+        fetch("https://resume-website-client.vercel.app/getTechSkills")
             .then((response) => response.json())
             .then((data) => setTechSkills(data))
             .catch((error) => console.log("Error fetching tech skills", error));
          
 
-        fetch("http://localhost:8000/getSoftSkills")
+        fetch("https://resume-website-client.vercel.app/getSoftSkills")
             .then((response) => response.json())
             .then((data) => setSoftSkills(data))
             .catch((error) => console.log("Error fetching soft skills", error));
           
         
-        fetch("http://localhost:8000/getEducation")
+        fetch("https://resume-website-client.vercel.app/getEducation")
             .then((response) => response.json())
             .then((data) => setEducation(data))
             .catch((error) => console.log("Error fetching education details", error));
             
         
-        fetch("http://localhost:8000/getExperience")
+        fetch("https://resume-website-client.vercel.app/getExperience")
             .then((response) => response.json())
             .then((data) => setWorkExp(data))
             .catch((error) => console.log("Error fetching work experience details", error));
