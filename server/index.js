@@ -8,7 +8,7 @@ app.use(cors());
 
 //Redirect to react app:
 app.get("/", (req, res) => {
-    res.redirect("http://localhost:8000");
+    res.redirect("https://resume-website-client.vercel.app/");
 });
 
 app.get("/getContactInfo", (req, res) => {
